@@ -1,0 +1,46 @@
+header>button>a{
+  display: flex;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+body>div>div>a{
+  text-decoration: none;
+}
+ 
+.container1{
+  
+  border: 2px solid #061d49;
+} 
+
+#content{
+  margin: 50px 10px 50px 10px;
+  font-size: 40px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+  background-color: aqua;
+}
+
+/* card layout */
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 2px solid skyblue;
+  background-color: white;
+}
+
+#card1{
+  border: 1px solid #455169;
+  border-radius: 20px;
+  border-width: 10px;
+  font-size: 80px;
+  padding: 30px 60px; 
+  margin: 30px;
+  background-color: lightgray;
+  color: #061d49;
+}
